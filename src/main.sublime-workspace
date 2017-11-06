@@ -1,0 +1,420 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"add",
+				"addRows"
+			],
+			[
+				"spl",
+				"split"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"b",
+				"b"
+			],
+			[
+				"user",
+				"user"
+			],
+			[
+				"res",
+				"result3"
+			],
+			[
+				"sc",
+				"scroll_answer"
+			],
+			[
+				"StackO",
+				"Stackoverflow"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"nam",
+				"nameElements"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"l",
+				"label\tTag"
+			],
+			[
+				"left",
+				"padding-left"
+			],
+			[
+				"se",
+				"setAttribute"
+			],
+			[
+				"im",
+				"imageDataURL"
+			],
+			[
+				"lo",
+				"longitude"
+			],
+			[
+				"get",
+				"getLocation"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"Success",
+				"successful"
+			],
+			[
+				"err",
+				"errorThrown"
+			],
+			[
+				"adda",
+				"addActivity"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"loca",
+				"location"
+			],
+			[
+				"u",
+				"usernamevalue"
+			],
+			[
+				"ans",
+				"answers"
+			],
+			[
+				"S",
+				"StringIO"
+			],
+			[
+				"cur",
+				"cur"
+			],
+			[
+				"rating",
+				"ratingstablename"
+			],
+			[
+				"set",
+				"set_isolation_level"
+			],
+			[
+				"rat",
+				"ratingstablename"
+			],
+			[
+				"ratings",
+				"ratingsfilepath"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 147.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/aw1/get-bookmarks.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aw1/get-daily-bar-data.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aw1/get-all-time-bar-data.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aw1/all-pie-data.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aw1/get-pie-data.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aw1/user-profile.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/aw1/signup.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/aw1/logout.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/aw1/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/aw1/photo-upload.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aw1/signup.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aw1/Sagar.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/aw1/Readme.docx",
+		"/Applications/XAMPP/xamppfiles/htdocs/aw1/logout.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aw1/login.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aw1/get-user.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aw1/get-login-history.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aw1/get-history.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aw1/currentUser.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/aw1/ccclogin.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/aw1/bbblogin.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/aw1/bbb.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/aw1/add-activity.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/aw1/aaalogin.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/aw1/aaa.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/signup.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/test.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/Assign1-SagarNavgire/signup.php",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 2/index.html",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/index.html",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/user-profile.html",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/get-history.php",
+		"/usr/local/Cellar/tomcat/8.5.21/libexec/webapps/ROOT/signup.php",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/login.php",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/untitled.php",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/signup.php",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/add-activity.php",
+		"/Users/sagarnavgire/Downloads/UploadToServer.php",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 2/population.csv",
+		"/Volumes/Transcend/Fall 2016/Internship/Resume/Others/Sagar_Navgire.tex",
+		"/Users/sagarnavgire/Downloads/untitled.tex",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/Test Chrome Extensions/popup.js",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/Test Chrome Extensions/Test EXT/popup.html",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/Assign1-SagarNavgire/signup.html",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/Assign1-SagarNavgire/user-profile.html",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/Assign1-SagarNavgire/index.html",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/Assign1-SagarNavgire/Stack Overflow Activity Tracker/background.js",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/Assign1-SagarNavgire/Stack Overflow Activity Tracker/content.js",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/Assign1-SagarNavgire/logout.html",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/Assign1-SagarNavgire/signup.php",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/Assign1-SagarNavgire/logout.php",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/Assign1-SagarNavgire/login.php",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/Assign1-SagarNavgire/get-login-history.php",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/Assign1-SagarNavgire/get-user.php",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/Assign1-SagarNavgire/get-history.php",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/Assign1-SagarNavgire/add-activity.php",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/Stack Overflow Activity Tracker/manifest.json",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/Stack Overflow Activity Tracker/popup.html",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/Stack Overflow Activity Tracker/content.js",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/Stack Overflow Activity Tracker/background.js",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/logout.html",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/signup.html",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/logout.php",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/Click Detector/detectclicks.js",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/Stack Overflow Activity Tracker/popup.js",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/get-user.php",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/auth.php",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/test4/content.js",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/test4/manifest.json",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/test4/background.js",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/Click Detector/manifest.json",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/test2/background.js",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/test2/content.js",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/test2/popup.js",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/test2/popup.html",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/Test EXT/popup.html",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/Test EXT/popup.js",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/Test EXT/manifest.json",
+		"/Users/sagarnavgire/Downloads/alchemy-2-master/bin/senti.mln",
+		"/Users/sagarnavgire/Downloads/alchemy-2-master/bin/db1.db",
+		"/Users/sagarnavgire/Downloads/Assgn5.py",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/test3/content_script.js",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/test3/change.js",
+		"/Volumes/Transcend/Fall 2017/AW/Assignment 1/test3/manifest.json",
+		"/Users/sagarnavgire/Downloads/citeseer.ie/cs3-const.mln",
+		"/Users/sagarnavgire/Downloads/citeseer.ie/cs3.db",
+		"/Users/sagarnavgire/Desktop/DDS/Assignment5/Assignment5/tester.py",
+		"/Users/sagarnavgire/Desktop/DDS/Assignment5/Assignment5/Assignment5_Interface.py",
+		"/Users/sagarnavgire/Desktop/DDS/Assignment5/Assignment5/findBusinessBasedOnLocation.txt",
+		"/Users/sagarnavgire/Desktop/DDS/Assignment5/Assignment5/findBusinessBasedOnCity.txt",
+		"/Users/sagarnavgire/Downloads/alchemy-2-master/bin/senti.mln5835_tmpalchemy.mln",
+		"/Users/sagarnavgire/Downloads/citeseer.ie/cs0-const.mln",
+		"/Users/sagarnavgire/Downloads/citeseer.ie/cs0.db",
+		"/Users/sagarnavgire/Desktop/DDS/Assignment5/Assignment5/testData.json",
+		"/Users/sagarnavgire/Desktop/DDS/Assignment5/Assignment5/Assignment5_Interface.pyc",
+		"/Users/sagarnavgire/Desktop/DDS/Assignment5/Assignment5/findBusinessBasedOnCity_old.txt",
+		"/Users/sagarnavgire/Downloads/metadata.json",
+		"/Users/sagarnavgire/Downloads/primer-dataset.json",
+		"/Users/sagarnavgire/Downloads/hdfscommands",
+		"/Users/sagarnavgire/Downloads/EquiJoinReducer.java",
+		"/Users/sagarnavgire/Downloads/EquiJoinMapper.java",
+		"/Users/sagarnavgire/Downloads/EquiJoinDriver.java",
+		"/Users/sagarnavgire/Downloads/EquiJoin.java",
+		"/Volumes/Transcend/Spring 2017/KRR/Assignment 4/problem6",
+		"/Users/sagarnavgire/Downloads/clingo-5.1.0-macos-10.9/hw4.lp",
+		"/Volumes/Transcend/Spring 2017/KRR/Assignment 4/ex7.7b",
+		"/Volumes/Transcend/Spring 2017/KRR/Assignment 4/ex7.7a",
+		"/Volumes/Transcend/Spring 2017/KRR/Assignment 4/ex7.6",
+		"/Volumes/Transcend/Spring 2017/KRR/Assignment 4/ex7.5b",
+		"/Volumes/Transcend/Spring 2017/KRR/Assignment 4/ex7.5a",
+		"/Users/sagarnavgire/Downloads/clingo-5.1.0-macos-10.9/midterm1",
+		"/Users/sagarnavgire/Downloads/hadoop-2.7.2/equijoin.java",
+		"/Users/sagarnavgire/Downloads/hadoop-2.7.2/etc/hadoop/httpfs-env.sh",
+		"/Users/sagarnavgire/Documents/workspace/HelloWorld/src/HelloWorld.java",
+		"/Users/sagarnavgire/Desktop/DDS/Assignment3/Assignment3_Interface(1).py",
+		"/Volumes/Transcend/Fall 2016/310 DS - Nakamura/Projects/Project 2 Phase 2/Sagar-Navgire/main3.cpp",
+		"/Users/sagarnavgire/Desktop/DDS/Assignment1/Interface.py",
+		"/Users/sagarnavgire/Downloads/clingo-5.1.0-macos-10.9/program.lp",
+		"/Volumes/Transcend/Fall 2016/310 DS - Nakamura/Projects/Project 2 Phase 1/main.cpp",
+		"/Volumes/Transcend/Fall 2016/310 DS - Nakamura/Projects/Project 2 Phase 2/Project2Phase1/main.cpp",
+		"/Users/sagarnavgire/Desktop/DDS/Assignment2/Assignment2/Assignment1.py",
+		"/Users/sagarnavgire/Desktop/bdthanker.py",
+		"/Volumes/Transcend/Fall 2016/310 DS - Nakamura/Projects/Project 2 Phase 2/main.cpp",
+		"/Users/sagarnavgire/Downloads/top500_scraper.py",
+		"/Users/sagarnavgire/Downloads/RR.java",
+		"/Users/sagarnavgire/Downloads/AmazonExtractor.py",
+		"/Users/sagarnavgire/Desktop/DDS/Assignment3/Tester/Assignment3_Interface.py",
+		"/Volumes/Transcend/Fall 2016/Extra Projects/Web Crawler/DB.java"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "main.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
