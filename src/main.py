@@ -3,6 +3,7 @@ __author__ = 'Sagar Navgire'
 import csv
 from smote import smote
 from UnderSample import underSample
+from PlotROCCurve import plotROC
 from sklearn.neighbors import NearestNeighbors
 import numpy as np
 
@@ -33,7 +34,8 @@ if __name__ == '__main__':
         # print minoritySamples[0]
 
         # smote(minorityCounter, 300, 5, minoritySamples)
-        underSample(minorityCounter, 100, majoritySamples, majorityCounter)
+        # underSample(minorityCounter, 100, majoritySamples, majorityCounter)
+        plotROC()
 
         csvfile.close
 
