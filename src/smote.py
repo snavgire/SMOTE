@@ -26,14 +26,18 @@ def smote(T, N, k, minoritySamples):
     N = int(N / 100)
     print("Vaue of N: " + str(N))
 
+    fo = open("Output/diabetes_Smote.csv", "w")
+
     for i in range(0, T - 1):
         print(" ")
         print ("Minority Sample:" + str(minoritySamples[i]))
         nnArray = getNearestNeighbors(minoritySamples, k + 1, i)
-        Populate(N, i, k, nnArray, minoritySamples)
+        Populate(N, i, k, nnArray, minoritySamples, fo)
+
+    fo.close()
 
 
-def Populate(N, currentIndex, k, nnArray, minoritySamples):
+def Populate(N, currentIndex, k, nnArray, minoritySamples, fo):
     while (N != 0):
         nn = random.randint(1, k)
         print ("NN Sample" + str(nnArray[nn]))
@@ -66,6 +70,7 @@ def Populate(N, currentIndex, k, nnArray, minoritySamples):
 
         # print ("Minority Sample:" + str(minoritySamples[i]))
         print ("Synthetic Sample:" + str(Synthetic))
+        printToFile(Synthetic, fo)
 
         # TODO: Compute: dif = Sample[nnarray[nn][attr] - Sample[i][attr]
         # gap = random.uniform(0,1)
@@ -91,3 +96,11 @@ def getNearestNeighbors(minoritySamples, k, i):
         # print (minoritySamples[index])
 
     return nnarray
+
+
+def printToFile(Synthetic, fo):
+    outputString = (
+        str(Synthetic[0]) + "," + str(Synthetic[1]) + "," + str(Synthetic[2]) + "," + str(
+            Synthetic[3]) + "," + str(Synthetic[4]) + "," + str(Synthetic[5]) + "," + str(
+            Synthetic[6]) + "," + str(Synthetic[7]) + "," + str(Synthetic[8]))
+    fo.write(outputString + "\n")

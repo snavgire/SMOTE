@@ -4,8 +4,6 @@ import csv
 from smote import smote
 from UnderSample import underSample
 from PlotROCCurve import plotROC
-from sklearn.neighbors import NearestNeighbors
-import numpy as np
 
 if __name__ == '__main__':
     try:
@@ -32,10 +30,9 @@ if __name__ == '__main__':
         print ("Number of Miniority Samples:" + str(minorityCounter))
         print ("Number of Majority Samples:" + str(majorityCounter))
         # print minoritySamples[0]
-
-        # smote(minorityCounter, 300, 5, minoritySamples)
-        # underSample(minorityCounter, 100, majoritySamples, majorityCounter)
-        plotROC()
+        underSample(minorityCounter, 200, majoritySamples, majorityCounter)
+        smote(minorityCounter, 300, 5, minoritySamples)
+        # plotROC()
 
         csvfile.close
 

@@ -25,5 +25,5 @@ def plotROC():
     plt.ylim([-0.1, 1.2])
     plt.ylabel('True Positive Rate')
     plt.xlabel('False Positive Rate')
-    plt.savefig('myfilename.png')
+    plt.savefig('Output/myfilename.png')
     plt.show()
