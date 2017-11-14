@@ -19,7 +19,7 @@ if __name__ == '__main__':
                 Sample = row[0].split(',')
                 if (Sample[8] == '1'):
                     minorityCounter += 1
-                    minoritySamples.append(Sample[0:8])
+                    minoritySamples.append(Sample[0:9])
                     # print (Sample[0:8])
 
                     # print(row[0][2])
@@ -32,7 +32,7 @@ if __name__ == '__main__':
         # print minoritySamples[0]
         underSample(minorityCounter, 200, majoritySamples, majorityCounter)
         smote(minorityCounter, 300, 5, minoritySamples)
-        # plotROC()
+        plotROC(majoritySamples, minoritySamples)
 
         csvfile.close
 
