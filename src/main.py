@@ -4,6 +4,9 @@ import csv
 from smote import smote
 from UnderSample import underSample
 from PlotROCCurve import plotROC
+from C4_5Tree import treeClassifier
+# from C4_5Tree import treeClassifier2
+from C4_5Tree import plotConvexHull
 
 if __name__ == '__main__':
     try:
@@ -30,9 +33,13 @@ if __name__ == '__main__':
         print ("Number of Miniority Samples:" + str(minorityCounter))
         print ("Number of Majority Samples:" + str(majorityCounter))
         # print minoritySamples[0]
-        underSample(minorityCounter, 200, majoritySamples, majorityCounter)
-        smote(minorityCounter, 300, 5, minoritySamples)
-        plotROC(majoritySamples, minoritySamples)
+        # underSample(minorityCounter, 200, majoritySamples, majorityCounter)
+        # smote(minorityCounter, 300, 5, minoritySamples)
+        # plotROC(majoritySamples, minoritySamples)
+        # treeClassifierLogisticRegression(majoritySamples, minoritySamples)
+        # treeClassifier(majoritySamples, minoritySamples)
+        # treeClassifier2(majoritySamples, minoritySamples)
+        plotConvexHull()
 
         csvfile.close
 
