@@ -1,3 +1,5 @@
+__author__ = 'Sagar Navgire'
+
 from sklearn.metrics import roc_curve, auc
 
 # Reference: https://datamize.wordpress.com/2015/01/24/how-to-plot-a-roc-curve-in-scikit-learn/

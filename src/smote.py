@@ -26,7 +26,7 @@ def smote(T, N, k, minoritySamples):
     N = int(N / 100)
     print("Vaue of N: " + str(N))
 
-    fo = open("Output/diabetes_Smote.csv", "w")
+    fo = open("Output/diabetes_Smote.csv", "a")
 
     for i in range(0, T - 1):
         print(" ")

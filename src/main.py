@@ -7,6 +7,8 @@ from PlotROCCurve import plotROC
 from C4_5Tree import treeClassifier
 # from C4_5Tree import treeClassifier2
 from C4_5Tree import plotConvexHull
+from Helper import smoteHelper
+from Helper import underSampleOnlyHelper
 
 if __name__ == '__main__':
     try:
@@ -33,13 +35,18 @@ if __name__ == '__main__':
         print ("Number of Miniority Samples:" + str(minorityCounter))
         print ("Number of Majority Samples:" + str(majorityCounter))
         # print minoritySamples[0]
-        # underSample(minorityCounter, 200, majoritySamples, majorityCounter)
-        # smote(minorityCounter, 300, 5, minoritySamples)
+
+        underSampledMajoritySamples = underSample(minorityCounter, 100, majoritySamples, majorityCounter)
+        underSampleOnlyHelper(minoritySamples)
+
+        smoteHelper(underSampledMajoritySamples)
+        smote(minorityCounter, 200, 5, minoritySamples)
+
         # plotROC(majoritySamples, minoritySamples)
         # treeClassifierLogisticRegression(majoritySamples, minoritySamples)
         # treeClassifier(majoritySamples, minoritySamples)
         # treeClassifier2(majoritySamples, minoritySamples)
-        plotConvexHull()
+        # plotConvexHull()
 
         csvfile.close
 
