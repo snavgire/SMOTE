@@ -1,5 +1,42 @@
 __author__ = 'Sagar Navgire'
 
+import csv
+
+def getSamples(filename):
+    allSamples = []
+
+    with open(filename, 'rb') as csvfile:
+        spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
+        for row in spamreader:
+            Sample = row[0].split(',')
+            allSamples.append(Sample[0:9])
+
+    csvfile.close
+    return allSamples
+
+def getSeparatedSamples(filename):
+    minoritySamples = []
+    majoritySamples = []
+
+    with open(filename, 'rb') as csvfile:
+        spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
+        for row in spamreader:
+            Sample = row[0].split(',')
+            if (Sample[8] == '1'):
+                # minorityCounter += 1
+                minoritySamples.append(Sample[0:9])
+                # print (Sample[0:8])
+
+                # print(row[0][2])
+                # print (', '.join(row))
+            elif (Sample[8] == '0'):
+                # majorityCounter += 1
+                majoritySamples.append(Sample[0:9])
+
+    csvfile.close
+    return minoritySamples, majoritySamples
+
+
 #Function to add majority samples to UnderSample Only file
 def underSampleOnlyHelper(minoritySamples):
     fo = open("Output/diabetes_Under.csv", "a")

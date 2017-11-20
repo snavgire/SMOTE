@@ -22,6 +22,7 @@ import numpy as np
 from scipy.spatial import ConvexHull
 import matplotlib.pyplot as plt
 from matplotlib.patches import Polygon
+from Helper import getSamples
 
 
 def treeClassifierLogisticRegression(majoritySamples, minoritySamples):
@@ -145,8 +146,9 @@ def treeClassifier(majoritySamples, minoritySamples):
     plt.grid(True)
     plt.show()
 
-def treeClassifier2(majoritySamples, minoritySamples):
-    allSamples = minoritySamples + majoritySamples
+# def treeClassifier2(majoritySamples, minoritySamples):
+def treeClassifier2(filename):
+    allSamples = getSamples(filename)
 
     shuffle(allSamples)
 
