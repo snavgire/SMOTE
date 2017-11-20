@@ -202,6 +202,7 @@ def treeClassifier2(filename):
     plt.plot(mean_fpr, mean_tpr, color='b',
              label=r'Mean ROC (AUC = %0.2f $\pm$ %0.2f)' % (mean_auc, std_auc),
              lw=2, alpha=.8)
+    # print ("FPR: " + str(mean_fpr) + "TPR: " + str(mean_tpr))
 
     # plt.plot(fpr, tpr, lw=1, alpha=0.3,
     #          label='ROC fold %d (AUC = %0.2f)' % (i, roc_auc))
@@ -214,15 +215,19 @@ def treeClassifier2(filename):
     plt.ylabel('% True Positive')
     plt.grid(True)
     plt.show()
+    plotConvexHull(mean_fpr, mean_tpr)
 
-def plotConvexHull():
-    points = np.random.rand(4, 2)  # 30 random points in 2-D
+def plotConvexHull(fprs, tprs):
+    # points = np.random.rand(4, 2)  # 30 random points in 2-D
+    points = np.column_stack((fprs, tprs))
+    # print(points)
+
     hull = ConvexHull(points)
 
     plt.plot(points[:, 0], points[:, 1], 'o')
 
-    print (points[:, 0])
-    print (points[:, 1])
+    # print (points[:, 0])
+    # print (points[:, 1])
 
     for simplex in hull.simplices:
         plt.plot(points[simplex, 0], points[simplex, 1], 'k-')

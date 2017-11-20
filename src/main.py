@@ -57,6 +57,8 @@ if __name__ == '__main__':
         # plotROC(majoritySamples, minoritySamples)
         # treeClassifierLogisticRegression(majoritySamples, minoritySamples)
         # treeClassifier(majoritySamples, minoritySamples)
+
+
         treeClassifier2('Output/diabetes_Smote.csv')
         treeClassifier2('Output/diabetes_Under.csv')
         # plotConvexHull()
